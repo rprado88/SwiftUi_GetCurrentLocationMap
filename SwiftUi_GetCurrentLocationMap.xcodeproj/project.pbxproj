@@ -19,6 +19,7 @@
 		39265D5D2C34D22700EB5C68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39265D5F2C34D22900EB5C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39265D622C34D22900EB5C68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39265D692C34D31A00EB5C68 /* SwiftUi-GetCurrentLocationMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SwiftUi-GetCurrentLocationMap-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		39265D5A2C34D22700EB5C68 /* SwiftUi_GetCurrentLocationMap */ = {
 			isa = PBXGroup;
 			children = (
+				39265D692C34D31A00EB5C68 /* SwiftUi-GetCurrentLocationMap-Info.plist */,
 				39265D5B2C34D22700EB5C68 /* SwiftUi_GetCurrentLocationMapApp.swift */,
 				39265D5D2C34D22700EB5C68 /* ContentView.swift */,
 				39265D5F2C34D22900EB5C68 /* Assets.xcassets */,
@@ -275,6 +277,8 @@
 				DEVELOPMENT_TEAM = 5WMK8W9WLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUi-GetCurrentLocationMap-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show the user location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +308,8 @@
 				DEVELOPMENT_TEAM = 5WMK8W9WLH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUi-GetCurrentLocationMap-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show the user location.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
